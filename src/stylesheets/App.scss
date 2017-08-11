@@ -1,0 +1,56 @@
+body {
+  background-color: #358DF7;
+}
+
+#app {
+  align-self: center;
+  margin: 25px;
+}
+
+.PlaylistCollection {
+  background-color: $light-grey;
+  height: auto;
+  border-style: solid;
+  border-color: $grey;
+  padding: 10px;
+  position: static;
+  margin: 10px 0px;
+}
+
+.SongList {
+  background-color: $light-grey;
+  height: auto;
+  border-style: solid;
+  border-color: $grey;
+  position: static;
+}
+
+.SelectedSong {
+  background-color: $light-grey;
+  height: 200px;
+  border-style: solid;
+  border-color: $grey;
+}
+
+.selected {
+  background-color: $yellow;
+  width: 100%
+}
+
+div {
+  color: $blue;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  text-decoration: underline;
+  margin-bottom: 0px;
+}
+
+li {
+  font-family: 'Share Tech Mono', monospace;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
